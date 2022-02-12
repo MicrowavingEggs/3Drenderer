@@ -1,3 +1,5 @@
+#ifndef model_h
+#define model_h
 #include "entity.h"
 #include <string>
 #include <vector>
@@ -15,3 +17,5 @@ class Model : public Entity {
         ~Model();
 
 };
+
+#endif model_h

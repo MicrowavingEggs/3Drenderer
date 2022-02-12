@@ -1,4 +1,5 @@
-#include "model_h"
+#ifndef entity_h
+#define entity_h
 
 class Entity {
     private :
@@ -10,11 +11,11 @@ class Entity {
 
     public :
 
-        Entity(){
-        }
+        Entity();
 
-        ~Entity(){
-        }
+        ~Entity();
+
+        Entity(double x,double y,double z,double theta,double phi);
 
         double getX();
         double getY();
@@ -31,4 +32,6 @@ class Entity {
         void translateZ(double deltaz);
         void rotatePhi(double deltaphi);
         void rotateTheta(double deltatheta);
-}
+};
+
+#endif camera_h

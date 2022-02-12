@@ -5,4 +5,5 @@
 
 class Camera : public Entity {
 
-}
+};
+#endif camera_h
