@@ -54,7 +54,7 @@
         void Entity::translateY(double deltay) {
             y += deltay;
         }
-        void Entity::translateZ(double deltaz {
+        void Entity::translateZ(double deltaz) {
             z += deltaz;
         }
 
