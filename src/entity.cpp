@@ -1,4 +1,6 @@
 #include "entity.h"
+#define _USE_MATH_DEFINES
+#include <math.h>
 
         Entity::Entity() {
             x = 0;
@@ -12,7 +14,7 @@
             y = iy;
             z = iz;
             theta = itheta;
-            phi = iphi:
+            phi = iphi;
         }
 
         double Entity::getX() {
@@ -59,9 +61,9 @@
         }
 
         void Entity::rotatePhi(double deltaphi){
-            phi = (phi + deltaphi) % 2*MATH.PI;
+            phi = fmod(phi + deltaphi,2*M_PI);
         }
 
         void Entity::rotateTheta(double deltatheta){
-            theta = (theta + deltatheta) % 2*MATH.PI;
+            theta = fmod(theta + deltatheta,2*M_PI);
         }

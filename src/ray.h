@@ -1,6 +1,4 @@
-
-
 class Ray {
     private :
-        double[] direction;
-}
+        double direction[3];
+};
