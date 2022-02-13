@@ -11,10 +11,6 @@ double* crossProduct(double a[3],double b[3]) {
     return res;
 }
 
-double abs(double number){
-    (number<=0) ? -1 * number : number;
-}
-
 double* addArrays(double a[3], double b[3]){
     static double res[3];
     res[0] = a[0] + b[0];

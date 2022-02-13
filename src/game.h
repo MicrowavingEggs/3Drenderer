@@ -19,4 +19,4 @@ class Game {
         void game(); // while(isRunning) {gameLoop()}
 };
 
-#endif game_h
+#endif

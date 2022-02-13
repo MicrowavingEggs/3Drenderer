@@ -34,4 +34,4 @@ class Entity {
         void rotateTheta(double deltatheta);
 };
 
-#endif camera_h
+#endif

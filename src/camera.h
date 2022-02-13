@@ -15,4 +15,4 @@ class Camera : public Entity {
         Camera(int width,int height,int fovtheta,int fovphi,double x,double y,double z,double theta,double phi) : Entity(x,y,z,theta,phi){};
         bool castRay(int i, int j); // return true if the ray hit a face, false otherwise
 };
-#endif camera_h
+#endif

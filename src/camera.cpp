@@ -6,5 +6,6 @@
 //
 
 bool Camera::castRay(int i, int j){
-    // TODO
+    return true;
+    //TODO fix the function
 }

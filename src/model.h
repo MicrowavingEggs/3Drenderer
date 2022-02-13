@@ -18,4 +18,4 @@ class Model : public Entity {
 
 };
 
-#endif model_h
+#endif /* model_h  */

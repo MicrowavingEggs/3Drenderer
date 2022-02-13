@@ -15,4 +15,4 @@ class Ray {
         double* getIntersection(double vertexes[3][3], double normal[3]); // return the intersection between the ray and the face. if there's none or the range > this.range, return null;
 };
 
-#endif ray_h
+#endif

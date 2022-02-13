@@ -18,4 +18,4 @@ class Window {
         void draw(); //cast rays from the camera and draws on the renderer.
 };
 
-#endif window_h
+#endif
