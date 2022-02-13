@@ -35,7 +35,7 @@ double* Ray::getIntersection(double vertexes[3][3], double normal[3]){
         double tempRes[3]{*getPoint()};
         double tempTDir[3]{*scalarArray(t,getDirection())};
         static double res[3]{*addArrays(tempRes,tempTDir)};
-        return (isInTriangle(res,vertexes,normal)) ? res : nullptr;
+        return ((dist(getPoint(),res) < range) && isInTriangle(res,vertexes,normal)) ? res : nullptr;
     }
     return nullptr;
 }
