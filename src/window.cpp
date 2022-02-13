@@ -23,6 +23,10 @@ Window::~Window(){
 
 }
 
+void Window::drawPixel(int i, int j, bool rayhit){
+    // TODO
+}
+
 void Window::draw(){
     for(int i{0};i<h;i++){
         for(int j{0};j<w;j++){
